@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box; 
+} 
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    color: #ffbb55;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+#h2 {
+    padding: 5px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(130,186,106) ;
+    color: white;
+}
+
+.btn-x {
+    margin: 10px;
+    background-color: rgb(215,79,83);
+    color: white;
+}
+
+#input {
+   padding: 8px 70px 8px 70px;
+   text-align: center;
+   border: solid rgb(138,191,116);
+   color: #93c47d;
+   font-size: 15px;
+}  
+
+#addSkill {
+    background-color: white;
+    border: solid rgb(138,191,116);
+    color: mediumseagreen;
+    padding: 8px;
+}
